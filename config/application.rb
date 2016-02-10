@@ -16,6 +16,8 @@ module Catarse
 
     config.paths['app/views'].unshift("#{Rails.root}/app/views/catarse_bootstrap")
 
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'bower_components')
+
     #NOTE: the custom view path is for build a new style without need to
     # edit the catarse_views
     #raise config.paths['app/views'].inspect
