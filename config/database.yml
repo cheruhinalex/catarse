@@ -55,4 +55,4 @@ production:
 #  database: catarse_test
 #  pool: 5
 #  username: postgres # <== Change me!
-#  password: postgres # <== Same here!
+##  password: postgres # <== Same here!
